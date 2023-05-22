@@ -9,7 +9,7 @@
         "output": "./test",
         "inputSpec": "https://raw.githubusercontent.com/OpenAPITools/openapi-generator/master/modules/openapi-generator/src/test/resources/3_0/typescript-axios/with-separate-models-and-api-inheritance.yaml",
         "additional-properties": {
-          "useSingleRequestParameter": false,
+          "useSingleRequestParameter": true,
           "withSeparateModelsAndApi": true,
           "apiPackage": "api",
           "modelPackage": "models"
