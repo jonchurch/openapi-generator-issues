@@ -17,3 +17,6 @@ To reproduce the behavior:
 * Run the generator script `npm run generate` which runs the generator cli with only the generate option
 * Observe that there is no diff, the generated source did not change 
 
+## Notes
+
+The PR that added the option to the generator is [here](https://github.com/OpenAPITools/openapi-generator/pull/6288)
