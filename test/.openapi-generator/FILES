@@ -1,0 +1,17 @@
+.gitignore
+.npmignore
+.openapi-generator-ignore
+api.ts
+base.ts
+common.ts
+configuration.ts
+git_push.sh
+index.ts
+models/abstract-flat-stock-pick-order-base-dto.ts
+models/abstract-user-dto.ts
+models/branch-dto.ts
+models/flat-stock-pick-order-dto-all-of.ts
+models/flat-stock-pick-order-dto.ts
+models/index.ts
+models/internal-authenticated-user-dto.ts
+models/remote-authenticated-user-dto.ts
