@@ -1,0 +1,21 @@
+{
+  "$schema": "./node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "6.6.0",
+    "generators": {
+      "v2.0" : {
+        "generatorName": "typescript-axios",
+        "output": "./test",
+        "inputSpec": "https://raw.githubusercontent.com/OpenAPITools/openapi-generator/master/modules/openapi-generator/src/test/resources/3_0/typescript-axios/with-separate-models-and-api-inheritance.yaml",
+        "additional-properties": {
+          "useSingleRequestParameter": false,
+          "withSeparateModelsAndApi": true,
+          "apiPackage": "api",
+          "modelPackage": "models"
+        }
+      }
+    }
+  }
+}
+
