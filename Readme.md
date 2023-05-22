@@ -1,5 +1,6 @@
 # Issue
 > Issue filed here https://github.com/OpenAPITools/openapi-generator/issues/15598
+
 The `typescript-axios` generator is not respecting the `useSingleRequestParameter` additional-properties option, specified [here](https://github.com/OpenAPITools/openapi-generator/blob/master/docs/generators/typescript-axios.md).
 
 This repo uses `@openapitools/openapi-generator-cli@^2.6.0` with `openapi-generator@v6.6.0` and the example PetStore schema provided by the openapi-generator repository.
